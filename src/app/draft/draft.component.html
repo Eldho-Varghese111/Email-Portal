@@ -1,0 +1,12 @@
+<h2 class="my-4">Drafts</h2>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let draft of drafts">
+    <p class="font-weight-bold mb-0">To:</p>
+    <p>{{draft.to}}</p>
+    <p class="font-weight-bold mb-0">Subject:</p>
+    <p>{{draft.subject}}</p>
+    <p class="font-weight-bold mb-0">Message:</p>
+    <p>{{draft.message}}</p>
+  </li>
+</ul>

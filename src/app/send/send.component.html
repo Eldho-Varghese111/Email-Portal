@@ -1,0 +1,12 @@
+<h2 class="my-4">Sent Mails</h2>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let sent of sentMails">
+    <p class="font-weight-bold mb-0">To:</p>
+    <p>{{sent.to}}</p>
+    <p class="font-weight-bold mb-0">Subject:</p>
+    <p>{{sent.subject}}</p>
+    <p class="font-weight-bold mb-0">Message:</p>
+    <p>{{sent.message}}</p>
+  </li>
+</ul>
